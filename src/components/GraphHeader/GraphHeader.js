@@ -1,5 +1,3 @@
-import Logo from "../../shared-components/Logo";
-
 const GraphHeader = () => {
   return (
     <div className="graph-header">
@@ -7,7 +5,9 @@ const GraphHeader = () => {
         <h2>My Balance</h2>
         <p>$921.48</p>
       </div>
-      <Logo />
+      <div className="vertical-align" style={{ marginRight: "28px" }}>
+        <img src={"/images/logo.svg"} height={"40px"} alt="logo"></img>
+      </div>
     </div>
   );
 };

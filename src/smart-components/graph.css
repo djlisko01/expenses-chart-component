@@ -4,20 +4,15 @@
     width: 100%;
     justify-content: space-between;
     border-radius: 20px;
-    height: 125px;
+    height: 75px;
     color: #FFFFFF;
 }
 
-.balance > h2 {
-    font-size: 18px;
-    font-weight: 400;
-}
+
 
 .balance > p {
-    font-size: 32px;
     font-weight: 700;
 }
-
 
 .vertical-align {
     display: flex;
@@ -25,18 +20,6 @@
     justify-content: center;
 }
 
-.logo {
-    position: relative;
-}
-
-.circle {
-    position: absolute;
-    margin-right: 39px;
-    height: 48px;
-    border-radius: 50%;
-    width: 48px;
-    background-color: black;
-}
 
 .balance {
     margin-left: 32px;
@@ -62,16 +45,23 @@
 
 .description-text {
     color:var(--MediumBrown);
-    font-size: 18px;
     font-weight: 400;
+    font-size: 15px;
 }
 
 .month-total {
-    font-size: 48px;
     font-weight: 700;
+    font-size: 32px;
 }
 
 .month-pct {
-    font-size: 18px;
-    font-weight: 400;
+    font-weight: 700;
+}
+.month-compare {
+    text-align: end;
+}
+
+.bar-chart {
+    width: 100%;
+    height: 100%;
 }

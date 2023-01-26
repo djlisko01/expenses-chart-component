@@ -9,10 +9,12 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .App{
-   
+    height: 100vh;
     background-color: var(--CreamColor);
     display: flex;
     flex-direction: column;
@@ -22,9 +24,14 @@
 
 
 #graph {
-    width: 37.5%;
+    width:40%;
     height: auto;
     min-width: 375px;
     display: flex;
     flex-direction: column;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 700;
 }
