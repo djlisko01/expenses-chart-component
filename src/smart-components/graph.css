@@ -1,0 +1,77 @@
+.graph-header {
+    display: flex;
+    background-color: var(--Red);
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 20px;
+    height: 125px;
+    color: #FFFFFF;
+}
+
+.balance > h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.balance > p {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+.vertical-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    margin-right: 39px;
+    height: 48px;
+    border-radius: 50%;
+    width: 48px;
+    background-color: black;
+}
+
+.balance {
+    margin-left: 32px;
+}
+
+/* Graph Body */
+
+.graph-body {
+    background: var(--CardWhite);
+    margin-top: 24px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    border-radius: 20px;
+}
+
+.monthly-report {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description-text {
+    color:var(--MediumBrown);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.month-total {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.month-pct {
+    font-size: 18px;
+    font-weight: 400;
+}

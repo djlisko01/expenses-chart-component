@@ -1,0 +1,30 @@
+:root{
+    --CreamColor: #F8E9DD;
+    --Cyan: #76B5BC;
+    --Red: #EC755D;
+    --CardWhite: #F2F2F2;
+    --MediumBrown: #92857A;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.App{
+   
+    background-color: var(--CreamColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#graph {
+    width: 37.5%;
+    height: auto;
+    min-width: 375px;
+    display: flex;
+    flex-direction: column;
+}
